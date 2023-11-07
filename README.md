@@ -95,7 +95,7 @@ The project root directory containing different `docker-compose` file for runnin
 Each service has its own `Dockerfile` for deploying and running it using Docker engine.
 
 The docker compose files:
-* **docker-compose.sr**: This compose file for deploying and running Super Resolution Streamlit App with the integrated Models API service.
+* **docker-compose.sr**: This compose file for deploying and running **Super Resolution** Streamlit App with the integrated Models API service.
 
     Run the following command to build and run it in detach mode:
 
@@ -113,7 +113,7 @@ The docker compose files:
 
     `docker-compose -f docker-compose.sr.yml down`
 
-* **docker-compose.lp**: This compose file for deploying and running Layout Parser Streamlit App with the integrated Models API service.
+* **docker-compose.lp**: This compose file for deploying and running **Layout Parser** Streamlit App with the integrated Models API service.
 
     Run the following command to build and run it in detach mode:
 
