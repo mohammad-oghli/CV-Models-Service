@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+  models-api:
+    restart: unless-stopped
+    build: 
+      context: models-API
+      #dockerfile: ./Dockerfile
+    ports:
+      - "5000:5000" 
+  layout-parser:
+    build: 
+      context: layout-parser-st-app
+      #dockerfile: super-resolution-st-app/Dockerfile
+    ports:
+      - "8501:8501"
+    depends_on:
+      - models-api

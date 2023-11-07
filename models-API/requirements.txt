@@ -1,0 +1,7 @@
+Flask==3.0.0
+numpy==1.23.0
+layoutparser[ocr]
+torchvision==0.16.0
+opencv-python==4.6.0.66
+openvino==2022.3.1
+pillow==9.5.0
