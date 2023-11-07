@@ -92,7 +92,7 @@ You can check [this notebook](./models-API-notebook.ipynb) for live demo of call
 
 The project root directory containing different `docker-compose` file for running each model application.
 
-Each service has its own `Dockerfile` for deploying and running it using docker engine.
+Each service has its own `Dockerfile` for deploying and running it using Docker engine.
 
 The docker compose files:
 * **docker-compose.sr**: This compose file for deploying and running Super Resolution Streamlit App with the integrated Models API service.
