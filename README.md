@@ -90,7 +90,7 @@ You can check [this notebook](./models-API-notebook.ipynb) for live demo of call
 
 ## Models Containerizing using Docker [MLOps]
 
-The project root directory containing different docker-compose file for running each model application.
+The project root directory containing different `docker-compose` file for running each model application.
 
 Each service has its own `Dockerfile` for deploying and running it using docker engine.
 
