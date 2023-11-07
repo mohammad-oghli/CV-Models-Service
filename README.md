@@ -1,6 +1,6 @@
 # Computer Vision Models Service (Docker Hackathon)
 
-This project implements different **Computer Vision** deep learning Models as a service. It presents the capabilities of these models for creating ML applications.
+This project implements different **Computer Vision** Deep Learning Models as a service. It presents the capabilities of these models for creating ML applications.
 
 It contains 3 pre-trained DL models which can be used in image processing and recognition.
 
