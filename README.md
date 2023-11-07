@@ -117,7 +117,7 @@ The docker compose files:
 
     Run the following command to build and run it in detach mode:
 
-    `docker-compose -f docker-compose.sr.yml up -d`
+    `docker-compose -f docker-compose.lp.yml up -d`
 
 **Note**:
 
