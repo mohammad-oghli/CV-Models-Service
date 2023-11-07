@@ -35,7 +35,7 @@ You can use image samples in the **/sample_images** directory to test it on the 
 
 It provides the following functionality:
 
-* layoutparser can be used for conveniently OCR documents and convert the output in to structured data.
+* layoutparser can be used for conveniently OCR documents and convert the output into structured data.
 
 * With the help of Deep Learning, layoutparser supports the analysis of very complex documents and processing of the hierarchical structure in the layouts.
 
