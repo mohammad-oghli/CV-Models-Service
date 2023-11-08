@@ -9,7 +9,7 @@ Currently, Deployed Deep Learning Models:
 
 ### Image Super Resolution
 
-![superresulotion](https://i.imgur.com/cIC2Hx8.png)
+![superresulotion](https://i.imgur.com/IYuTz0t.png)
 
 Python function as a web service to enhance low resolution image to high quality image.
 
