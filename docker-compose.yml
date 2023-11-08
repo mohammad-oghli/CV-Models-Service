@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  models-api:
+    restart: unless-stopped
+    build: 
+      context: models-API
+      #dockerfile: ./Dockerfile
+    ports:
+      - "5000:5000" 
