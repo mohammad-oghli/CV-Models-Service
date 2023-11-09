@@ -4,6 +4,8 @@ This project implements different **Computer Vision** Deep Learning Models as a 
 
 It contains 3 pre-trained DL models which can be used in image processing and recognition.
 
+The DL models are deployed as microservices and you can embed them on any application with one line of code using the provided Models API endpoints.
+
 ## Models
 Currently, Deployed Deep Learning Models:
 
@@ -24,6 +26,8 @@ The service is based on **Single Image Super Resolution (SISR)** deep learning m
 In brief:
 * Input image should be: **480x270** resolution.
 * Output image : **1920x1080** resolution.
+
+It has applications in a number of domains including surveillance and security, medical imagery and enhancing Satellite images from the space.
 
 You can use image samples in the **/sample_images** directory to test it on the model.
 
@@ -84,7 +88,7 @@ image = cv2.imread(image_source)
 res = requests.post(endpoint, json={'image': image.tolist()})
 </pre>
 
-It will return response in **json** format containing the key `layout_text` for result image.
+It will return response in **json** format containing the key `layout_text` for result text.
 
 You can check [this notebook](./models-API-notebook.ipynb) for live demo of calling models inference by Models API endpoints.
 
