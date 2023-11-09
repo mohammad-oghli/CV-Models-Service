@@ -13,7 +13,7 @@ Currently, Deployed Deep Learning Models:
 
 ![superresulotion](https://i.imgur.com/IYuTz0t.png)
 
-Python function as a web service to enhance low resolution image to high quality image.
+Super Resolution service is a Deep Learning model to enhance low resolution image to high quality image.
 
 The service is based on **Single Image Super Resolution (SISR)** deep learning model which is available on Open Model Zoo, check this [page](https://docs.openvino.ai/latest/omz_models_model_single_image_super_resolution_1032.html) for more info.
 
