@@ -94,7 +94,7 @@ You can check [this notebook](./models-API-notebook.ipynb) for live demo of call
 
 ## Models Containerizing using Docker [MLOps]
 
-The project root directory containing different `docker-compose` file for running each model application.
+The project root directory containing different `docker-compose` files for running each model application.
 
 Each service has its own `Dockerfile` for deploying and running it using Docker engine.
 
@@ -122,6 +122,12 @@ The docker compose files:
     Run the following command to build and run it in detach mode:
 
     `docker-compose -f docker-compose.lp.yml up -d`
+
+* **docker-compose**: Default compose file for just deploying and running **Models API** service.
+
+    Run the following command to build and run it in detach mode:
+
+    `docker-compose up -d`
 
 **Note**:
 
