@@ -53,7 +53,7 @@ The project consists of the following:
 
 * **Super Resolution App**: Streamlit data service integrated with models API service to enhance low resolution image to high resolution image by requesting single image super resolution inference endpoint of models API for each input image.
 
-* **Layout Parser App**: Streamlit data service integrated with modles API service to detect layout different regions (**Text region**, **Image region**) for any document image. Also it can recognize text in text region using **Layout OCR** model and return the recognized text. Layout Parser deep learning model can be used to recognize and segment image and text region in any document image and extract the data from them.
+* **Layout Parser App**: Streamlit data service integrated with modles API service to detect layout different regions (**Text region**, **Image region**) for any document image. Also it can recognize text in text region using **Layout OCR** model and return the recognized text. Layout Parser deep learning model can be used to recognize and segment figure and text region in any document image and extract the data from them.
 
 ## How to call it
 
